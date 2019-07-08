@@ -1,0 +1,61 @@
+You can also read the online manual in my website.
+http://chobi-glass.com/Physics_Tank_Maker_manual/index.html
+
+"How to update"
+
+Please feel free to contact me if you have any questions.
+shopmaster@chobi-glass.com
+http://chobi-glass.com/Unity/index.html
+
+(Notice.)
+Please backup your project before importing the update.
+Most of the files will be overwritten. 
+
+
+
+
+*** How to update old Project (from Ver.2.0 to Ver.2.1) ***
+
+(1) Delete useless script files.
+    You will find some error messages in the Console after importing Ver.2.1.
+    
+    "Marker_Control_CS" and "Track_Interpolation_CS" are no longer used in Ver.2.1.
+    Please delete them from "C#_Script" folder.
+    
+
+
+
+*** How to update old Scene (from Ver.2.0 to Ver.2.1) ***
+
+(1) Add new Canvas into the scene.
+    UI displaying method has been changed in Ver.2.1.
+    Target marker and reticle are displayed using Image of UGUI in Ver.2.1.
+    You can find "Canvas_Marker" and "Canvas_Reticle" in "Template" folder.
+    
+    Drag and drop them into the Hierarchy in the scene.
+    
+
+(2) Replace old sample tanks in the scene.
+    Most of meshes and textures for sample tanks have been remade in Ver.2.1.
+    Old sample tanks are no longer used in Ver.2.1.
+    When yo use the old tanks in the scene, replace them with new sample tanks in "Sample_Tank_2.1" folder.
+
+(3) Adjust light settings in the scene.
+    Sample light settings have been changed in Ver.2.1.
+    When you use the sample light in the scene, adjust the "Ambient Intensity" in Lighting window as you will.
+
+
+
+*** How to update old Tank (from Ver.2.0 to Ver.2.1) ***
+
+(1) Remove "Cross_Hair" in the tank.
+    UI displaying method has been changed in Ver.2.1.
+    "Cross_Hair" in old tank is no longer used in Ver.2.1.
+    Delete it from the tank.
+    
+
+(2) Adjust the suspension settings in the "Create_Roadwheel".
+    Some values in the "Create_RoadWheel" have been changed from relative values to absolute values.
+    Set the angle from the horizontal position in the "Sus Spring Target Angle", "Forward Limit Angle" and "Backward Limit Angle".
+        
+        
